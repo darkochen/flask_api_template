@@ -1,0 +1,208 @@
+         24868 function calls (23568 primitive calls) in 0.131 seconds
+
+   Ordered by: internal time, cumulative time
+   List reduced from 1229 to 200 due to restriction <200>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       28    0.055    0.002    0.057    0.002 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/gevent/hub.py:635(wait)
+   109/25    0.019    0.000    0.029    0.001 {__import__}
+    50/12    0.002    0.000    0.006    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/sre_parse.py:395(_parse)
+       76    0.002    0.000    0.060    0.001 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/network.py:234(recv_plain)
+      802    0.001    0.000    0.002    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/sre_parse.py:193(__next)
+   105/11    0.001    0.000    0.003    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/sre_compile.py:64(_compile)
+        6    0.001    0.000    0.001    0.000 {time.strftime}
+   109/25    0.001    0.000    0.030    0.001 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/gevent/builtins.py:69(__import__)
+    471/4    0.001    0.000    0.003    0.001 /usr/local/Cellar/python/2.7.13/Frameworks/Python.framework/Versions/2.7/lib/python2.7/copy.py:145(deepcopy)
+        1    0.001    0.001    0.003    0.003 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/flask/app.py:1814(preprocess_request)
+       28    0.001    0.000    0.001    0.000 {method 'send' of '_socket.socket' objects}
+      109    0.001    0.000    0.001    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/gevent/builtins.py:46(__module_lock)
+        2    0.001    0.000    0.001    0.000 {syslog.syslog}
+        2    0.001    0.000    0.001    0.000 {method 'close' of 'file' objects}
+      103    0.001    0.000    0.001    0.000 {method 'recv' of '_socket.socket' objects}
+       76    0.001    0.000    0.058    0.001 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/gevent/_socket2.py:273(recv)
+        1    0.001    0.001    0.002    0.002 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/constants.py:25(<module>)
+   150/62    0.001    0.000    0.001    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/sre_parse.py:151(getwidth)
+  816/758    0.001    0.000    0.005    0.000 {getattr}
+       29    0.001    0.000    0.001    0.000 {method 'switch' of 'greenlet.greenlet' objects}
+1334/1333    0.001    0.000    0.001    0.000 {isinstance}
+       81    0.000    0.000    0.001    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/sqlalchemy/event/attr.py:123(update_subclass)
+       28    0.000    0.000    0.001    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/gevent/hub.py:887(get)
+2935/2876    0.000    0.000    0.000    0.000 {len}
+       28    0.000    0.000    0.002    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/gevent/_socket2.py:371(sendall)
+       20    0.000    0.000    0.001    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/conversion.py:376(row_to_python)
+      675    0.000    0.000    0.002    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/sre_parse.py:212(get)
+      440    0.000    0.000    0.001    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/sre_parse.py:141(__getitem__)
+        1    0.000    0.000    0.004    0.004 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/errors.py:25(<module>)
+       69    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x10cfcdc68}
+       76    0.000    0.000    0.000    0.000 {method 'recv_into' of '_socket.socket' objects}
+    24/11    0.000    0.000    0.002    0.000 /usr/local/Cellar/python/2.7.13/Frameworks/Python.framework/Versions/2.7/lib/python2.7/copy.py:253(_deepcopy_dict)
+       30    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/gevent/hub.py:626(switch)
+       36    0.000    0.000    0.001    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/sre_compile.py:256(_optimize_charset)
+     1748    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+      143    0.000    0.000    0.000    0.000 {_struct.unpack_from}
+    72/13    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/sqlalchemy/util/langhelpers.py:229(get_cls_kwargs)
+      109    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/gevent/lock.py:232(release)
+        2    0.000    0.000    0.000    0.000 {method 'flush' of 'file' objects}
+  260/246    0.000    0.000    0.001    0.000 {hasattr}
+      4/2    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/gevent/event.py:357(get)
+       28    0.000    0.000    0.057    0.002 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/gevent/_socket2.py:167(_wait)
+       25    0.000    0.000    0.058    0.002 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/connection.py:239(_send_cmd)
+      418    0.000    0.000    0.000    0.000 /usr/local/Cellar/python/2.7.13/Frameworks/Python.framework/Versions/2.7/lib/python2.7/weakref.py:367(__contains__)
+    46/11    0.000    0.000    0.006    0.001 /Users/jim.chung/opt/product_search/venv/lib/python2.7/sre_parse.py:317(_parse_sub)
+      226    0.000    0.000    0.000    0.000 /usr/local/Cellar/python/2.7.13/Frameworks/Python.framework/Versions/2.7/lib/python2.7/copy.py:267(_keep_alive)
+       11    0.000    0.000    0.010    0.001 /Users/jim.chung/opt/product_search/venv/lib/python2.7/re.py:230(_compile)
+       81    0.000    0.000    0.001    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/sqlalchemy/event/attr.py:186(__init__)
+       18    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/protocol.py:206(parse_ok)
+       11    0.000    0.000    0.010    0.001 /Users/jim.chung/opt/product_search/venv/lib/python2.7/sre_compile.py:567(compile)
+       21    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/utils.py:220(read_lc_string_list)
+      109    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/gevent/lock.py:218(acquire)
+       11    0.000    0.000    0.002    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/connection.py:368(_handle_result)
+       67    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/catch23.py:86(struct_unpack)
+      108    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/gevent/lock.py:205(__init__)
+       15    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/sqlalchemy/orm/state.py:77(__init__)
+        2    0.000    0.000    0.003    0.001 /Users/jim.chung/opt/product_search/product_search_app/utils/infralog.py:102(Write)
+      918    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+    75/59    0.000    0.000    0.002    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/sqlalchemy/util/langhelpers.py:761(__get__)
+     18/4    0.000    0.000    0.003    0.001 /usr/local/Cellar/python/2.7.13/Frameworks/Python.framework/Versions/2.7/lib/python2.7/copy.py:306(_reconstruct)
+        6    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/sqlalchemy/sql/elements.py:674(__getattr__)
+       26    0.000    0.000    0.002    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/network.py:127(send_plain)
+      364    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/sre_parse.py:206(match)
+       13    0.000    0.000    0.001    0.000 /Users/jim.chung/opt/product_search/venv/bin/../lib/python2.7/abc.py:86(__new__)
+       35    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/werkzeug/local.py:68(__getattr__)
+        7    0.000    0.000    0.001    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/protocol.py:309(read_text_result)
+       26    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/network.py:53(_prepare_packets)
+       15    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/conversion.py:500(_DATETIME_to_python)
+       30    0.000    0.000    0.000    0.000 {method 'getsockopt' of '_socket.socket' objects}
+       92    0.000    0.000    0.000    0.000 {_codecs.utf_8_decode}
+        9    0.000    0.000    0.000    0.000 /usr/local/Cellar/python/2.7.13/Frameworks/Python.framework/Versions/2.7/lib/python2.7/weakref.py:297(__init__)
+       42    0.000    0.000    0.001    0.000 /Users/jim.chung/opt/product_search/venv/bin/../lib/python2.7/abc.py:128(__instancecheck__)
+       20    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/sre_compile.py:411(_mk_bitmap)
+       38    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/sre_parse.py:268(_escape)
+       66    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/conversion.py:550(_STRING_to_python)
+       18    0.000    0.000    0.001    0.000 {method '__reduce_ex__' of 'object' objects}
+    19/16    0.000    0.000    0.001    0.000 /usr/local/Cellar/python/2.7.13/Frameworks/Python.framework/Versions/2.7/lib/python2.7/copy.py:234(_deepcopy_tuple)
+       14    0.000    0.000    0.002    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/sqlalchemy/event/base.py:74(__init__)
+       15    0.000    0.000    0.001    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/sqlalchemy/orm/loading.py:366(_instance)
+       36    0.000    0.000    0.001    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/sre_compile.py:228(_compile_charset)
+       32    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/connection.py:301(_handle_server_status)
+    67/38    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/sqlalchemy/util/langhelpers.py:830(__getattr__)
+       28    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/gevent/hub.py:821(__init__)
+       27    0.000    0.000    0.001    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/gevent/hub.py:857(switch)
+       87    0.000    0.000    0.001    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/sqlalchemy/event/base.py:83(<genexpr>)
+       14    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/protocol.py:236(parse_column)
+      105    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/sre_parse.py:92(__init__)
+       49    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/connection.py:1054(handle_unread_result)
+       10    0.000    0.000    0.001    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/sqlalchemy/sql/compiler.py:1412(_label_select_column)
+       28    0.000    0.000    0.001    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/gevent/_socket2.py:336(__send_chunk)
+        7    0.000    0.000    0.018    0.003 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/cursor.py:497(execute)
+        1    0.000    0.000    0.000    0.000 {built-in method now}
+        1    0.000    0.000    0.008    0.008 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/cursor.py:25(<module>)
+  146/138    0.000    0.000    0.000    0.000 {issubclass}
+        1    0.000    0.000    0.005    0.005 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/authentication.py:24(<module>)
+       84    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/utils.py:167(read_lc_string)
+    29/22    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/bin/../lib/python2.7/abc.py:148(__subclasscheck__)
+      189    0.000    0.000    0.000    0.000 /usr/local/Cellar/python/2.7.13/Frameworks/Python.framework/Versions/2.7/lib/python2.7/weakref.py:329(__getitem__)
+       11    0.000    0.000    0.001    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/sre_compile.py:433(_compile_info)
+      107    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/gevent/builtins.py:62(cb)
+       31    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/werkzeug/local.py:160(top)
+       55    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+       80    0.000    0.000    0.000    0.000 {_struct.pack}
+       76    0.000    0.000    0.001    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/gevent/_socket2.py:307(recv_into)
+        1    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/network.py:25(<module>)
+       37    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/bin/../lib/python2.7/abc.py:89(<genexpr>)
+      223    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/sre_parse.py:137(__len__)
+     16/1    0.000    0.000    0.002    0.002 /usr/local/Cellar/python/2.7.13/Frameworks/Python.framework/Versions/2.7/lib/python2.7/collections.py:50(__init__)
+       43    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/utils.py:296(read_lc_int)
+      105    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/bin/../lib/python2.7/_weakrefset.py:70(__contains__)
+        1    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/errorcode.py:27(<module>)
+      2/1    0.000    0.000    0.125    0.125 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/flask/app.py:1958(wsgi_app)
+        7    0.000    0.000    0.037    0.005 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/connection.py:785(cursor)
+        1    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/conversion.py:25(<module>)
+       25    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/utils.py:53(int1store)
+       51    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/sre_compile.py:428(_simple)
+        1    0.000    0.000    0.001    0.001 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/abstracts.py:24(<module>)
+       10    0.000    0.000    0.001    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/sqlalchemy/sql/compiler.py:633(visit_label)
+       23    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/sre_parse.py:74(opengroup)
+       18    0.000    0.000    0.001    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/connection.py:317(_handle_ok)
+       82    0.000    0.000    0.000    0.000 {method 'decode' of 'bytearray' objects}
+       39    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/bin/../lib/python2.7/_weakrefset.py:36(__init__)
+       15    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/sqlalchemy/orm/loading.py:490(_populate_full)
+        1    0.000    0.000    0.001    0.001 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/abstracts.py:339(_check_server_version)
+       97    0.000    0.000    0.000    0.000 /usr/local/Cellar/python/2.7.13/Frameworks/Python.framework/Versions/2.7/lib/python2.7/weakref.py:335(__setitem__)
+        3    0.000    0.000    0.025    0.008 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/sqlalchemy/engine/base.py:1104(_execute_context)
+        4    0.000    0.000    0.002    0.001 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/sqlalchemy/sql/compiler.py:1640(visit_select)
+      168    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/sre_parse.py:149(append)
+        1    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/custom_types.py:24(<module>)
+        1    0.000    0.000    0.030    0.030 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py:48(create)
+        4    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/sqlalchemy/sql/selectable.py:2490(__init__)
+       11    0.000    0.000    0.006    0.001 /Users/jim.chung/opt/product_search/venv/lib/python2.7/sre_parse.py:706(parse)
+     16/1    0.000    0.000    0.002    0.002 /Users/jim.chung/opt/product_search/venv/bin/../lib/python2.7/_abcoll.py:548(update)
+       92    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/encodings/utf_8.py:15(decode)
+     16/1    0.000    0.000    0.005    0.005 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/flask_restplus/marshalling.py:13(marshal)
+        2    0.000    0.000    0.000    0.000 {method 'connect_ex' of '_socket.socket' objects}
+        7    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/sqlalchemy/orm/strategies.py:30(_register_attribute)
+       31    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/sqlalchemy/util/langhelpers.py:270(inspect_func_args)
+       35    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/gevent/hub.py:361(get_hub)
+      244    0.000    0.000    0.000    0.000 {min}
+       17    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/sqlalchemy/sql/compiler.py:2878(_requires_quotes)
+       87    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/sqlalchemy/event/base.py:100(_event_descriptors)
+        2    0.000    0.000    0.000    0.000 /usr/local/Cellar/python/2.7.13/Frameworks/Python.framework/Versions/2.7/lib/python2.7/logging/__init__.py:237(__init__)
+       10    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/sqlalchemy/sql/type_api.py:1288(adapt_type)
+      833    0.000    0.000    0.000    0.000 {id}
+       18    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/abstracts.py:601(python_charset)
+        1    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/cursor.py:1063(MySQLCursorPrepared)
+       48    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/flask_restplus/fields.py:41(get_value)
+       23    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/werkzeug/local.py:300(_get_current_object)
+       28    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/gevent/_socket2.py:56(_get_memory)
+       28    0.000    0.000    0.001    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/gevent/_socket2.py:318(send)
+     23/4    0.000    0.000    0.002    0.001 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/sqlalchemy/sql/visitors.py:75(_compiler_dispatch)
+       33    0.000    0.000    0.000    0.000 /usr/local/Cellar/python/2.7.13/Frameworks/Python.framework/Versions/2.7/lib/python2.7/collections.py:71(__setitem__)
+        3    0.000    0.000    0.001    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/sqlalchemy/engine/result.py:196(__init__)
+    40/35    0.000    0.000    0.004    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/werkzeug/utils.py:68(__get__)
+       11    0.000    0.000    0.024    0.002 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/connection.py:473(cmd_query)
+     49/4    0.000    0.000    0.002    0.001 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/flask_restplus/marshalling.py:52(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/abstracts.py:36(MySQLConnectionAbstract)
+      377    0.000    0.000    0.000    0.000 {greenlet.getcurrent}
+        4    0.000    0.000    0.002    0.001 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/sqlalchemy/sql/compiler.py:376(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/sqlalchemy/pool.py:537(checkin)
+       15    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/sqlalchemy/orm/instrumentation.py:311(new_instance)
+        1    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/dbapi.py:27(<module>)
+       10    0.000    0.000    0.001    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/sqlalchemy/sql/type_api.py:462(_cached_result_processor)
+       10    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/sqlalchemy/sql/compiler.py:676(visit_column)
+       28    0.000    0.000    0.000    0.000 <string>:1(getsockopt)
+        1    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/protocol.py:25(<module>)
+        1    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/sqlalchemy/event/base.py:116(_join)
+       14    0.000    0.000    0.036    0.003 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/connection.py:619(cmd_ping)
+        1    0.000    0.000    0.023    0.023 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/connection.py:25(<module>)
+       14    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/cursor.py:336(_reset_result)
+        1    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/gunicorn/glogging.py:260(atoms)
+       14    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/protocol.py:262(parse_eof)
+        7    0.000    0.000    0.014    0.002 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/cursor.py:307(__init__)
+       25    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/protocol.py:119(make_command)
+        2    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/encodings/__init__.py:71(search_function)
+        1    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/gunicorn/http/wsgi.py:117(create)
+        1    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/sqlalchemy/orm/state.py:308(_detach_states)
+       17    0.000    0.000    0.000    0.000 {method 'encode' of 'unicode' objects}
+        1    0.000    0.000    0.000    0.000 {time.localtime}
+       22    0.000    0.000    0.000    0.000 {method 'match' of '_sre.SRE_Pattern' objects}
+       10    0.000    0.000    0.001    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/sqlalchemy/sql/type_api.py:475(_dialect_info)
+       10    0.000    0.000    0.001    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/sqlalchemy/util/langhelpers.py:1031(constructor_copy)
+       17    0.000    0.000    0.000    0.000 {method 'decode' of 'str' objects}
+      128    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+       11    0.000    0.000    0.000    0.000 /usr/local/Cellar/python/2.7.13/Frameworks/Python.framework/Versions/2.7/lib/python2.7/threading.py:147(acquire)
+        3    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/constants.py:608(get_default_collation)
+        7    0.000    0.000    0.001    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/connection.py:426(get_rows)
+       76    0.000    0.000    0.000    0.000 {method 'extend' of 'bytearray' objects}
+        7    0.000    0.000    0.014    0.002 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/cursor.py:954(__init__)
+       21    0.000    0.000    0.001    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/werkzeug/local.py:344(__getattr__)
+       22    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/sre_compile.py:546(isstring)
+       56    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+       64    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/constants.py:77(flag_is_set)
+        1    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/sqlalchemy/orm/session.py:1166(expunge_all)
+       30    0.000    0.000    0.000    0.000 {sys.exc_clear}
+        4    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/sqlalchemy/sql/selectable.py:2749(_froms)
+        9    0.000    0.000    0.000    0.000 /Users/jim.chung/opt/product_search/venv/lib/python2.7/sre_parse.py:227(isname)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python/2.7.13/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/encoder.py:212(iterencode)
+        1    0.000    0.000    0.025    0.025 /Users/jim.chung/opt/product_search/venv/lib/python2.7/site-packages/mysql/connector/__init__.py:26(<module>)
+
+

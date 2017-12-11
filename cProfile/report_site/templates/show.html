@@ -1,0 +1,31 @@
+<!doctype html>
+<title>Show</title>
+<div class=page>
+
+{{date_time[:4]}}/{{date_time[4:6]}}/{{date_time[6:8]}} {{date_time[8:]}}:00 Report
+</div>
+</br>
+<table style="border:1px;padding:5px;" rules="all" cellpadding='5';>
+  <tr>
+      <td>姓名</td>
+      <td>Method</td>
+      <td>時間</td>
+      <td>run time</td>
+      <td>URI</td>
+      <td>Report</td>
+  </tr>
+  {% for key, value in user_dict.iteritems() %}
+    {% for i in range((value|length)): %}
+      <tr>
+          {% if i == 0: %}
+            <td rowspan="{{value|length}}">{{key}}</td>
+          {% endif %}
+          <td>{{value[i]["method"]}}</td>
+          <td>{{value[i]["date"]}} {{value[i]["time"]}}</td>
+          <td>{{value[i]["run_time"]}}</td>
+          <td>{{value[i]["uri"]}}</td>
+          <td><a href="/report?path={{value[i]["orig_path"]}}&name={{value[i]["orig_file"]}}" target="_new" > ....</a></td>
+      </tr>
+    {% endfor %}
+  {% endfor %}
+</table>

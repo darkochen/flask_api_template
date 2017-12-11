@@ -1,0 +1,14 @@
+version: '2'
+services:
+  product_search:
+    build: .
+    image: product_search_img
+    container_name: product_search
+    privileged: true
+    ports:
+     - "1085:8085"
+    volumes:
+      - ${PWD}/..:/opt/product_search
+      - /var/log:/opt/var
+    restart: always
+    command: "gunicorn -c gunicorn_config.py product_search_app.app:app"

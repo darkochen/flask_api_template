@@ -1,0 +1,7 @@
+.git
+deploy/
+log/
+**/*.log
+**/*.pyc
+docker-compose.yml
+Dockerfile
